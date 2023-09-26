@@ -4,4 +4,4 @@
 3. [Python code for reading and writing the file](readandwrite.py)
 
 
-Please run the Code to read and write the file.
+Please run the code (3.) to read and write the file.

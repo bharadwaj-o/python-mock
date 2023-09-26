@@ -1,12 +1,11 @@
-# Taking "gfg input file.txt" as input file
-# in reading mode
-with open("Read_from.txt", "r") as input:
-      
-    # Creating "gfg output file.txt" as output
-    # file in write mode
-    with open("Write_into.txt", "w") as output:
-          
-        # Writing each line from input file to
-        # output file using loop
-        for line in input:
-            output.write(line)
+
+# Creating an output file in writing mode
+output_file = open("Write_into.txt", "w",encoding='utf-8')
+  
+# Opening input file and scanning each line
+# from input file and writing in output file
+with open("Read_from.txt", "r",encoding='utf-8') as scan:
+    output_file.write(scan.read())
+  
+# Closing the output file
+output_file.close()
